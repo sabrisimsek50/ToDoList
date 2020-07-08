@@ -1,0 +1,6 @@
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.Entities\bin\Debug\ToDoList.Entities.dll
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.Entities\bin\Debug\ToDoList.Entities.pdb
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.Entities\obj\Debug\ToDoList.Entities.csprojAssemblyReference.cache
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.Entities\obj\Debug\ToDoList.Entities.csproj.CoreCompileInputs.cache
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.Entities\obj\Debug\ToDoList.Entities.dll
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.Entities\obj\Debug\ToDoList.Entities.pdb

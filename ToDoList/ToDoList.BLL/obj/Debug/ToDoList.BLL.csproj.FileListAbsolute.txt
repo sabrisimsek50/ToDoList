@@ -1,0 +1,14 @@
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.BLL\bin\Debug\ToDoList.BLL.dll
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.BLL\bin\Debug\ToDoList.BLL.pdb
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.BLL\bin\Debug\ToDoList.DAL.dll
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.BLL\bin\Debug\ToDoList.Entities.dll
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.BLL\bin\Debug\EntityFramework.dll
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.BLL\bin\Debug\ToDoList.DAL.pdb
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.BLL\bin\Debug\ToDoList.DAL.dll.config
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.BLL\bin\Debug\ToDoList.Entities.pdb
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.BLL\bin\Debug\EntityFramework.xml
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.BLL\obj\Debug\ToDoList.BLL.csprojAssemblyReference.cache
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.BLL\obj\Debug\ToDoList.BLL.csproj.CoreCompileInputs.cache
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.BLL\obj\Debug\ToDoList.BLL.csproj.CopyComplete
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.BLL\obj\Debug\ToDoList.BLL.dll
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.BLL\obj\Debug\ToDoList.BLL.pdb
