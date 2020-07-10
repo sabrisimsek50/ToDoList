@@ -51,6 +51,12 @@
     <Reference Include="Autofac.Integration.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
       <HintPath>..\packages\Autofac.Mvc5.4.0.2\lib\net45\Autofac.Integration.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="Common.Logging, Version=3.0.0.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.0.0\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.0.0.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.0.0\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -185,11 +191,6 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\EventListRequestModels\Create.cshtml" />
-    <Content Include="Views\EventListRequestModels\Delete.cshtml" />
-    <Content Include="Views\EventListRequestModels\Details.cshtml" />
-    <Content Include="Views\EventListRequestModels\Edit.cshtml" />
-    <Content Include="Views\EventListRequestModels\Index.cshtml" />
     <Content Include="Views\Home\Add.cshtml" />
     <Content Include="Views\Home\Update.cshtml" />
   </ItemGroup>
@@ -212,9 +213,13 @@
       <Project>{D1EC535B-8537-4777-B297-48FE5D8CA30C}</Project>
       <Name>ToDoList.BLL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ToDoList.Entities\ToDoList.Entities.csproj">
-      <Project>{49C4F87D-7075-4BAF-80B7-E032375E2111}</Project>
-      <Name>ToDoList.Entities</Name>
+    <ProjectReference Include="..\ToDoList.DAL\ToDoList.DAL.csproj">
+      <Project>{99214C9D-2EF4-4870-9D59-64BA93276A2B}</Project>
+      <Name>ToDoList.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ToDoList.Helper\ToDoList.Helper.csproj">
+      <Project>{2EADE283-F74B-487D-B7B7-3B3CEE3C38E1}</Project>
+      <Name>ToDoList.Helper</Name>
     </ProjectReference>
     <ProjectReference Include="..\ToDoList.IoC\ToDoList.IoC.csproj">
       <Project>{2B3129C2-8B5A-4D75-BE9A-8AF800D02690}</Project>

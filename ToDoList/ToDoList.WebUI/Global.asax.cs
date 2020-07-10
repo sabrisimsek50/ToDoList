@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using ToDoList.Helper.Job;
 using ToDoList.WebUI.Insfrastructure;
 
 namespace ToDoList.WebUI
@@ -18,6 +19,8 @@ namespace ToDoList.WebUI
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             Autofactrapper.Run();
+            Job.Trigger();
+
         }
     }
 }

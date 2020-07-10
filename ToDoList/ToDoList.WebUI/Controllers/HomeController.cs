@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Helpers;
+﻿using System.Linq;
 using System.Web.Mvc;
 using ToDoList.BLL.Abstract;
+using ToDoList.Helper;
+using ToDoList.Helper.Job;
 using ToDoList.WebUI.Models;
 
 namespace ToDoList.WebUI.Controllers
@@ -29,14 +27,24 @@ namespace ToDoList.WebUI.Controllers
         public JsonResult Add(EventListRequestModel arg)
         {
 
-            return Json(_eventListService.Add(new ToDoList.Entities.EventList()
+            var result = _eventListService.Add(new ToDoList.DAL.EventList()
             {
                 Content = arg.Content,
                 Date = arg.Date,
                 Id = arg.Id,
                 Time = arg.Time,
                 Title = arg.Title
-            }), JsonRequestBehavior.AllowGet);
+            });
+            SingletonDataList<DAL.EventList>.GetObject().Add(new DAL.EventList()
+            {
+                Content = result.Content,
+                Date = result.Date,
+                Id = result.Id,
+                Time = result.Time,
+                Title = result.Title
+            });
+
+            return Json(result, JsonRequestBehavior.AllowGet);
         }
         [HttpPost]
         public JsonResult Delete(int id)
@@ -47,6 +55,7 @@ namespace ToDoList.WebUI.Controllers
         public ActionResult Update(int id)
         {
             var entity = _eventListService.GetById(id);
+
             EventListRequestModel request = new EventListRequestModel()
             {
                 Content = entity.Content,
@@ -55,23 +64,43 @@ namespace ToDoList.WebUI.Controllers
                 Time = entity.Time,
                 Title = entity.Title
             };
+
             return View(request);
         }
         [HttpPost]
         public JsonResult Update(EventListRequestModel arg)
-        { 
-            return Json(
-            _eventListService.Update(new Entities.EventList()
+        {
+            var entity = _eventListService.Update(new DAL.EventList
             {
                 Id = arg.Id,
                 Content = arg.Content,
                 Date = arg.Date,
                 Time = arg.Time,
                 Title = arg.Title
-            }
-            , arg.Id)
+            }, arg.Id);
+            SingletonDataList<DAL.EventList>.GetObject().Remove(SingletonDataList<DAL.EventList>.GetObject().Where(q => q.Id == arg.Id).FirstOrDefault());
+            SingletonDataList<DAL.EventList>.GetObject().Add(new DAL.EventList()
+            {
+                Content = entity.Content,
+                Date = entity.Date,
+                Id = entity.Id,
+                Time = entity.Time,
+                Title = entity.Title
+            });
+
+            return Json(
+            entity
             , JsonRequestBehavior.AllowGet);
         }
 
+        [HttpPost]
+        public JsonResult Trigger()
+        {
+            Job.Trigger();
+       
+
+
+            return Json(Job.EventList, JsonRequestBehavior.AllowGet);
+        }
     }
 }

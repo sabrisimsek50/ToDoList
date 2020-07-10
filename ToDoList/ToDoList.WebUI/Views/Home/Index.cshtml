@@ -1,4 +1,4 @@
-﻿@model ICollection<ToDoList.Entities.EventList>
+﻿@model ICollection<ToDoList.DAL.EventList>
 
 
 @{
@@ -6,6 +6,7 @@
 }
 @section style{
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 }
 
@@ -46,7 +47,7 @@
 											<td>@i</td>
 											<td>@item.Title</td>
 											<td>@item.Content</td>
-											<td>@item.Date</td>
+											<td>@item.Date.ToShortDateString()</td>
 											<td>@item.Time</td>
 											<td class="text-center">
 
@@ -70,7 +71,9 @@
 	</div>
 	<a href="@Url.Action("Add","Home")" class=" btn btn-primary">Add</a>
 </div>
+<div id="addModal">
 
+</div>
 
 
 
@@ -79,7 +82,8 @@
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.js"></script>
 	<script>$("#table_button1").dataTable();</script>
-	<script src="~/Scripts/jquery-3.4.1.min.js"></script>
-	<script src="~/Scripts/Application/ToDoList.js"></script>
-
+	<script src="~/Scripts/Application/ToDoList.js?q=3"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 }

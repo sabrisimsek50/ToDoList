@@ -50,10 +50,6 @@
       <Project>{99214C9D-2EF4-4870-9D59-64BA93276A2B}</Project>
       <Name>ToDoList.DAL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ToDoList.Entities\ToDoList.Entities.csproj">
-      <Project>{49C4F87D-7075-4BAF-80B7-E032375E2111}</Project>
-      <Name>ToDoList.Entities</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

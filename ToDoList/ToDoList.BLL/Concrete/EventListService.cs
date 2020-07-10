@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ToDoList.BLL.Abstract;
 using ToDoList.DAL.Repository;
-using ToDoList.Entities;
+using ToDoList.DAL;
 
 namespace ToDoList.BLL.Concrete
 {

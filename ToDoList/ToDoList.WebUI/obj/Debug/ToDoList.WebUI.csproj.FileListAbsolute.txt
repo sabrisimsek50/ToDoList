@@ -70,7 +70,6 @@ C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\ToDoList.IoC.dl
 C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\WebGrease.dll
 C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\ToDoList.BLL.dll
 C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\ToDoList.DAL.dll
-C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\ToDoList.Entities.dll
 C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\EntityFramework.dll
 C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\ToDoList.IoC.pdb
 C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\Autofac.pdb
@@ -92,7 +91,6 @@ C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\Microsoft.CodeD
 C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\ToDoList.BLL.pdb
 C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\ToDoList.DAL.pdb
 C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\ToDoList.DAL.dll.config
-C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\ToDoList.Entities.pdb
 C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\EntityFramework.xml
 C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\obj\Debug\ToDoList.WebUI.csprojAssemblyReference.cache
 C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\obj\Debug\ToDoList.WebUI.csproj.CoreCompileInputs.cache
@@ -101,3 +99,15 @@ C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\obj\Debug\ToDoList.
 C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\obj\Debug\ToDoList.WebUI.pdb
 C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\EntityFramework.SqlServer.dll
 C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\sabri\Source\Repos\ToDoList\ToDoList\ToDoList.WebUI\bin\ToDoList.Helper.dll
+C:\Users\sabri\Source\Repos\ToDoList\ToDoList\ToDoList.WebUI\bin\Quartz.dll
+C:\Users\sabri\Source\Repos\ToDoList\ToDoList\ToDoList.WebUI\bin\Common.Logging.Core.dll
+C:\Users\sabri\Source\Repos\ToDoList\ToDoList\ToDoList.WebUI\bin\Common.Logging.dll
+C:\Users\sabri\Source\Repos\ToDoList\ToDoList\ToDoList.WebUI\bin\ToDoList.Helper.pdb
+C:\Users\sabri\Source\Repos\ToDoList\ToDoList\ToDoList.WebUI\bin\Quartz.pdb
+C:\Users\sabri\Source\Repos\ToDoList\ToDoList\ToDoList.WebUI\bin\Quartz.xml
+C:\Users\sabri\Source\Repos\ToDoList\ToDoList\ToDoList.WebUI\bin\Common.Logging.Core.pdb
+C:\Users\sabri\Source\Repos\ToDoList\ToDoList\ToDoList.WebUI\bin\Common.Logging.Core.xml
+C:\Users\sabri\Source\Repos\ToDoList\ToDoList\ToDoList.WebUI\bin\Common.Logging.pdb
+C:\Users\sabri\Source\Repos\ToDoList\ToDoList\ToDoList.WebUI\bin\Common.Logging.xml
+C:\Users\sabri\source\repos\ToDoList\ToDoList\ToDoList.WebUI\bin\ToDoList.Helper.dll.config
